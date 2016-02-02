@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'Esri/calcite-web#v1.0.0-beta5' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'Esri/calcite-web#v1.0.0-beta5', null ]
+6 verbose cache add name=undefined spec="Esri/calcite-web#v1.0.0-beta5" args=["Esri/calcite-web#v1.0.0-beta5",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: '#v1.0.0-beta5',
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'Esri/calcite-web',
+7 verbose parsed url   path: 'Esri/calcite-web',
+7 verbose parsed url   href: 'Esri/calcite-web#v1.0.0-beta5' }
+8 silly lockFile 7c17dc06-Esri-calcite-web-v1-0-0-beta5 Esri/calcite-web#v1.0.0-beta5
+9 verbose lock Esri/calcite-web#v1.0.0-beta5 C:\Users\StSmith\AppData\Roaming\npm-cache\7c17dc06-Esri-calcite-web-v1-0-0-beta5.lock
+10 info maybeGithub Attempting Esri/calcite-web#v1.0.0-beta5 from git://github.com/Esri/calcite-web#v1.0.0-beta5
+11 silly lockFile 56b59855-git-github-com-Esri-calcite-web git://github.com/Esri/calcite-web
+12 verbose lock git://github.com/Esri/calcite-web C:\Users\StSmith\AppData\Roaming\npm-cache\56b59855-git-github-com-Esri-calcite-web.lock
+13 verbose addRemoteGit [ 'git://github.com/Esri/calcite-web', 'v1.0.0-beta5' ]
+14 verbose git clone git://github.com/Esri/calcite-web Cloning into bare repository 'C:\Users\StSmith\AppData\Roaming\npm-cache\_git-remotes\git-github-com-Esri-calcite-web-56b59855'...
+15 verbose git fetch -a origin (git://github.com/Esri/calcite-web)
+16 silly verifyOwnership skipping for windows
+17 error Failed resolving git HEAD (git://github.com/Esri/calcite-web) fatal: ambiguous argument 'v1.0.0-beta5': unknown revision or path not in the working tree.
+17 error Failed resolving git HEAD (git://github.com/Esri/calcite-web) Use '--' to separate paths from revisions, like this:
+17 error Failed resolving git HEAD (git://github.com/Esri/calcite-web) 'git <command> [<revision>...] -- [<file>...]'
+18 silly lockFile 56b59855-git-github-com-Esri-calcite-web git://github.com/Esri/calcite-web
+19 silly lockFile 56b59855-git-github-com-Esri-calcite-web git://github.com/Esri/calcite-web
+20 info maybeGithub Attempting Esri/calcite-web#v1.0.0-beta5 from git+ssh://git@github.com:Esri/calcite-web#v1.0.0-beta5
+21 silly lockFile 8c394c56-git-github-com-Esri-calcite-web git@github.com:Esri/calcite-web
+22 verbose lock git@github.com:Esri/calcite-web C:\Users\StSmith\AppData\Roaming\npm-cache\8c394c56-git-github-com-Esri-calcite-web.lock
+23 verbose addRemoteGit [ 'git@github.com:Esri/calcite-web', 'v1.0.0-beta5' ]
+24 verbose git clone git@github.com:Esri/calcite-web Cloning into bare repository 'C:\Users\StSmith\AppData\Roaming\npm-cache\_git-remotes\git-github-com-Esri-calcite-web-8c394c56'...
+24 verbose git clone git@github.com:Esri/calcite-web Warning: Permanently added 'github.com,192.30.252.129' (RSA) to the list of known hosts.
+25 verbose git fetch -a origin (git@github.com:Esri/calcite-web) Warning: Permanently added 'github.com,192.30.252.129' (RSA) to the list of known hosts.
+26 silly verifyOwnership skipping for windows
+27 error Failed resolving git HEAD (git@github.com:Esri/calcite-web) fatal: ambiguous argument 'v1.0.0-beta5': unknown revision or path not in the working tree.
+27 error Failed resolving git HEAD (git@github.com:Esri/calcite-web) Use '--' to separate paths from revisions, like this:
+27 error Failed resolving git HEAD (git@github.com:Esri/calcite-web) 'git <command> [<revision>...] -- [<file>...]'
+28 silly lockFile 8c394c56-git-github-com-Esri-calcite-web git@github.com:Esri/calcite-web
+29 silly lockFile 8c394c56-git-github-com-Esri-calcite-web git@github.com:Esri/calcite-web
+30 silly lockFile 7c17dc06-Esri-calcite-web-v1-0-0-beta5 Esri/calcite-web#v1.0.0-beta5
+31 silly lockFile 7c17dc06-Esri-calcite-web-v1-0-0-beta5 Esri/calcite-web#v1.0.0-beta5
+32 error addLocal Could not install Esri/calcite-web#v1.0.0-beta5
+33 error Error: ENOENT, stat 'C:\Users\StSmith\Documents\GitHub\map-portal\Esri\calcite-web#v1.0.0-beta5'
+34 error If you need help, you may report this *entire* log,
+34 error including the npm and node versions, at:
+34 error     <http://github.com/npm/npm/issues>
+35 error System Windows_NT 6.1.7601
+36 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "Esri/calcite-web#v1.0.0-beta5"
+37 error cwd C:\Users\StSmith\Documents\GitHub\map-portal
+38 error node -v v0.10.35
+39 error npm -v 1.4.28
+40 error path C:\Users\StSmith\Documents\GitHub\map-portal\Esri\calcite-web#v1.0.0-beta5
+41 error code ENOENT
+42 error errno 34
+43 verbose exit [ 34, true ]
