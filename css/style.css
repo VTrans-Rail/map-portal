@@ -1,0 +1,5 @@
+/* add repeating topo img */
+.sub-nav {
+  background-image: url("../node_modules/calcite-web/dist/img/banner.jpg");
+  background-position: center top;
+}
