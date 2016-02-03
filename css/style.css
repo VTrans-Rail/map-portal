@@ -1,5 +1,20 @@
 /* add repeating topo img */
 .sub-nav {
-  background-image: url("../node_modules/calcite-web/dist/img/banner.jpg");
-  background-position: center top;
+  background-image: url("../img/ocean.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.vtrans-logo {
+  margin-top: 1rem;
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  min-height: 30px;
+  min-width: 120px;
+  line-height: 0;
+  background-size: 100% 100%;
+  background-image: url("../img/MOM AOT BLK.svg") !important;
 }
