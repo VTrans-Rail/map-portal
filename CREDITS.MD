@@ -1,5 +1,8 @@
 # Credits
 
+# Framework
+Esri Calcite - http://esri.github.io/calcite-web/
+
 # Images
 
 Ocean Satellite Image - https://unsplash.com/photos/6-jTZysYY_U
@@ -21,4 +24,4 @@ Tracks sunset - https://unsplash.com/photos/UzHQOxVxqgw
 Tracks beach - https://unsplash.com/photos/4f7r1LuPYj8
 Tracks forest - https://unsplash.com/photos/RWbZ7YWAXoQ
 Tracks forest closeup - https://unsplash.com/photos/RWbZ7YWAXoQ
-Tracks tunnel - https://unsplash.com/photos/M-obGtfDlUU 
+Tracks tunnel - https://unsplash.com/photos/M-obGtfDlUU

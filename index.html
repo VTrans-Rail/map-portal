@@ -33,6 +33,26 @@
 
   </head>
   <body>
+    <!-- Drawer -->
+  <div class="drawer drawer-left js-drawer is-active" data-drawer="top-nav" tabindex="0">
+    <nav class="drawer-nav" role="navigation">
+      <aside class="side-nav">
+        <h2 class="side-nav-title">Calcite Web</h2>
+        <a href="/" class="side-nav-link">Get Started</a>
+        <a href="/" class="side-nav-link">Type</a>
+        <a href="/" class="side-nav-link">Grid</a>
+        <a href="/" class="side-nav-link">Icons</a>
+        <a href="/" class="side-nav-link">Color</a>
+        <a href="/" class="side-nav-link">Components</a>
+        <a href="/" class="side-nav-link">Patterns</a>
+        <a href="/" class="side-nav-link">Sass</a>
+        <a href="/" class="side-nav-link">JavaScript</a>
+        <a href="/" class="side-nav-link">Layouts</a>
+      </aside>
+    </nav>
+  </div>
+
+      <div class="wrapper">
 
 
 <!-- <header class="top-nav">
@@ -54,62 +74,6 @@
   </div>
 </header> -->
 
-<header class="top-nav">
-        <a class="skip-to-content" href="#skip-to-content">Skip To Content</a>
-        <div class="grid-container">
-          <div class="column-24">
-            <div class="tablet-hide">
-              <a href="" class="top-nav-title">Calcite Web</a>
-              <nav class="top-nav-list" role="navigation">
-
-
-
-
-                  <a href="type" class="top-nav-link">Type</a>
-
-
-
-                  <a href="grid" class="top-nav-link">Grid</a>
-
-
-
-                  <a href="icons" class="top-nav-link">Icons</a>
-
-
-
-                  <a href="color" class="top-nav-link">Color</a>
-
-
-
-                  <a href="components" class="top-nav-link">Components</a>
-
-
-
-                  <a href="patterns" class="top-nav-link">Patterns</a>
-
-
-
-                  <a href="sass" class="top-nav-link">Sass</a>
-
-
-
-                  <a href="javascript" class="top-nav-link">JavaScript</a>
-
-
-
-                  <a href="page-layouts" class="top-nav-link">Layouts</a>
-
-
-              </nav>
-              <a href="#" class="icon-ui-search js-expand-toggle top-nav-link right" data-expand="search">Search</a>
-            </div>
-
-            <div class="tablet-show">
-              <a href="/" class="icon-ui-menu top-nav-title js-drawer-toggle" data-drawer="top-nav">Calcite Web</a>
-            </div>
-          </div>
-        </div>
-      </header>
 
 <header class="sub-nav" role="banner">
   <div class="grid-container">
@@ -202,6 +166,9 @@
   </div>
 </div>
 
-<script src="node_modules\calcite-web\lib\js\calcite-web.js"></script>
-<script src="node_modules\calcite-web\docs\source\assets\js\all.js"></script>
+  <script src="node_modules\calcite-web\lib\js\calcite-web.js"></script>
+  <script>
+     calcite.init()
+</script>
+</div> <!-- end wrapper -->
 </body>
