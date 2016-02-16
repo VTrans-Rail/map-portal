@@ -6,7 +6,7 @@
 }
 
 .vtrans-logo {
-  margin-top: 1rem;
+  /*margin-top: 1rem;*/
   content: "";
   display: inline-block;
   background-repeat: no-repeat;
@@ -17,4 +17,17 @@
   line-height: 0;
   background-size: 100% 100%;
   background-image: url("../img/MOM AOT BLK.svg") !important;
+}
+
+.vtrans-logo #logo-drawer {
+  padding: 1.1875rem 0;
+}
+
+#vtransparency {
+  max-width: 300px;
+  max-width: 100%;
+}
+
+#top-nav-title {
+  padding: 0.5rem 0;
 }
