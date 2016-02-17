@@ -15,7 +15,7 @@
   min-height: 30px;
   min-width: 120px;
   line-height: 0;
-  background-size: 100% 100%;
+  background-size: 100% auto;
   background-image: url("../img/MOM AOT BLK.svg") !important;
 }
 
